@@ -1,42 +1,53 @@
-# Standard Github Repository Template
+# Full Stack Application Template with Vite, React, TypeScript, Node.js, Express, and PostgreSQL
 
-This is a starter repo template anyone can use to make starting a github repository easier!
+This template provides a full stack application setup with Vite, React, and TypeScript on the client side, and Node.js, Express, and PostgreSQL on the server side.
 
-## Table of Contents
+Directory Structure
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+client: Contains the front-end part of the application, built with Vite, React, and TypeScript.
+server: Contains the back-end part of the application, built with Node.js, Express, and PostgreSQL.
+
+## Getting Started
+
+Follow these steps to get the application up and running:
+
+## Prerequisites
+Make sure you have Node.js and npm installed on your machine. PostgreSQL should be installed and properly configured too.
 
 ## Installation
 
-Describe the installation process for your project:
+Clone this repo:
+```
+git clone https://github.com/yourusername/your-repo-name.git
+```
+Install NPM packages for both the client and server:
+
+## Copy code
 
 ```
-npm install
+cd your-repo-name
+cd client && npm install
+cd ../server && npm install
+```
+
+Add your PostgreSQL configuration details to the db.ts file located in the server directory.
+
+Start the development server for the client and server respectively:
+
+
+## Start the client
+
+```
+cd client && npm run dev
+```
+
+## Start the server
+
+```
+cd server && npm run start
 ```
 
 ## Usage
 
-Describe how to use your project:
+Use this template as a starting point for your full stack application. Develop your frontend inside the client directory and your backend inside the server directory. Enjoy the power of Vite, React, TypeScript, Node.js, Express, and PostgreSQL in your application development!
 
-```
-npm start
-```
-
-## Contributing
-
-State how the community can contribute to your project:
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
-
-## License
-
-State what kind of license your project uses:
-
-This project uses the [MIT](https://opensource.org/licenses/MIT) license.
